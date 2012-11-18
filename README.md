@@ -13,6 +13,11 @@ Then add this line to your project's `grunt.js` gruntfile:
 grunt.loadNpmTasks('grunt-coffee-server');
 ```
 
+Run the server from the command line:
+```bash
+grunt coffee-server
+```
+
 [grunt]: https://github.com/cowboy/grunt
 [getting_started]: https://github.com/cowboy/grunt/blob/master/docs/getting_started.md
 
