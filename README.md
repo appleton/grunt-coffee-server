@@ -38,7 +38,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][grunt].
 
 ## Release History
-_(Nothing yet)_
+0.1.1 - Fixes [an issue](https://github.com/senchalabs/connect/issues/298) with serving static files.
 
 ## License
 Copyright (c) 2012 Andy Appleton

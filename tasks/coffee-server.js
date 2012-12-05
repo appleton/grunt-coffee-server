@@ -11,7 +11,8 @@
 module.exports = function(grunt) {
   var config = grunt.config('server'),
       express  = require('express'),
-      compiler = require('./lib/compiler');
+      compiler = require('./lib/compiler'),
+      path = require('path');
 
   config = (config || {});
   config.base = (config.base || './');
@@ -27,7 +28,7 @@ module.exports = function(grunt) {
 
     server.configure(function () {
       server.use(compiler(config.base, grunt));
-      server.use(express.static(config.base));
+      server.use(express.static(path.resolve(config.base)));
     });
 
     server.listen(config.port);

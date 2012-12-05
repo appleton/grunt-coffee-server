@@ -1,7 +1,7 @@
 {
   "name": "grunt-coffee-server",
   "description": "A development server which auto compiles coffeescript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/mrappleton/grunt-coffee-server",
   "author": {
     "name": "Andy Appleton",
