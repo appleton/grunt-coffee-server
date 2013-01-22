@@ -28,7 +28,7 @@ This task takes two optional configuration options:
 ```javascript
 grunt.initConfig({
   server: {
-    port: 1337 // defaults to 3000 if not set
+    port: 1337, // defaults to 3000 if not set
     base: './public' // defaults to ./ if not set
   }
 });
