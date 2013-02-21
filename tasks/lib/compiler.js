@@ -15,7 +15,7 @@ module.exports = function(base, grunt){
     }
 
     var url = req.url[0] === '/' ? req.url : '/' + req.url,
-        result = readFile(base + req.url),
+        result = readFile(base + req.url, grunt.config('server').tryCoffeeFirst),
         code = result[0],
         output = result[1],
         contentType = (code === 200 ? 'application/javascript' : 'text/html');
